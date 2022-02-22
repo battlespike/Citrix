@@ -1,1 +1,1 @@
-Invoke-Command -ComputerName LCAHNCRBPVS07 {Get-ItemProperty -Path 'HKLM:\software\citrix\ProvisioningServices\StreamProcess' -Name SkipRIMSForPrivate}
+Invoke-Command -ComputerName <servername> {Get-ItemProperty -Path 'HKLM:\software\citrix\ProvisioningServices\StreamProcess' -Name SkipRIMSForPrivate}
