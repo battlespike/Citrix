@@ -1,0 +1,1 @@
+Get-WmiObject -Class Win32Reg_AddRemovePrograms -ComputerName LCAHNCRBPVS07  | where Publisher -eq "Citrix Systems, Inc." | select DisplayName, Version
